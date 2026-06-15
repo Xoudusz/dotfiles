@@ -11,9 +11,11 @@ claude/
     handoff/         # /handoff — session handoff doc generator
     document/        # /document — post-change documentation checklist
     skill-creator/   # /skill-creator — scaffold new skills (init_skill.py)
-    github-actions/  # /github-actions — CI/CD failure triage via gh CLI
-    webapp-testing/  # /webapp-testing — Playwright UI testing
-    release/         # /release — VERSION bump, CI flow, conventional commits
+    github-actions/      # /github-actions — CI/CD failure triage via gh CLI
+    webapp-testing/      # /webapp-testing — Playwright UI testing
+    release/             # /release — VERSION bump, CI flow, conventional commits
+    portainer-deploy/    # /portainer-deploy — deploy Docker services via Portainer UI + verify via API
+    portainer-logs/      # /portainer-logs — pull container logs via Portainer REST API
 ```
 
 ## Setup
