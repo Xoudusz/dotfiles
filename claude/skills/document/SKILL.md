@@ -1,14 +1,13 @@
 ---
 name: document
 description: >
-  Document code changes across the three standard files immediately after making them.
-  Use after every feature, fix, or refactor — before committing or moving to the next task.
-  Triggers: "update docs", "document this", "update notes", /document.
+  This skill should be used immediately after every feature, fix, or refactor — before committing
+  or moving to the next task. Triggers on "update docs", "document this", "update notes", /document.
 ---
 
 # /document
 
-Document the change just made. Do this immediately — not at session end.
+To document a change: update all three standard files immediately — not at session end.
 
 ## File roles
 

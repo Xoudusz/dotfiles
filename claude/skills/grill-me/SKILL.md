@@ -1,17 +1,17 @@
 ---
 name: grill-me
 description: >
-  Interview the user relentlessly about a plan or design until reaching shared understanding,
-  resolving each branch of the decision tree. Use when user wants to stress-test a plan,
-  get grilled on their design, or mentions "grill me". Always invoke this skill for these triggers.
+  This skill should be used when the user wants to stress-test a plan or design decision,
+  get relentlessly questioned about their approach, or mentions "grill me". Triggers on
+  "grill me", "stress-test this", or "challenge my plan".
 ---
 
 # /grill-me
 
 Before questioning, state your understanding of the plan in 1-2 sentences. Then begin the interview.
 
-Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
+To conduct the interview: ask relentlessly about every aspect of the plan until reaching shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 
-Ask the questions one at a time.
+Ask one question at a time.
 
-If a question can be answered by exploring the codebase, explore the codebase instead.
+To answer a question that requires codebase knowledge: explore the codebase instead of asking the user.

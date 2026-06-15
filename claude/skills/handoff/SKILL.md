@@ -1,14 +1,14 @@
 ---
 name: handoff
 description: >
-  Compact the current conversation into a handoff document for another agent to pick up.
-  Use when user says /handoff, "handoff", "create a handoff", "write a handoff doc",
-  or wants to summarise the session for continuity. Always invoke this skill for these triggers.
+  This skill should be used when the user wants to compact the current session into a handoff
+  document for another agent to continue without context loss. Triggers on "/handoff", "handoff",
+  "create a handoff", "write a handoff doc", or "summarise the session".
 ---
 
 # /handoff
 
-Compact the current conversation into a handoff document so a fresh agent can continue without context loss.
+To produce a handoff document: compact the current conversation so a fresh agent can continue without context loss.
 
 ## Steps
 
