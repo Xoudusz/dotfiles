@@ -13,6 +13,7 @@ claude/
     skill-creator/   # /skill-creator — scaffold new skills (init_skill.py)
     github-actions/  # /github-actions — CI/CD failure triage via gh CLI
     webapp-testing/  # /webapp-testing — Playwright UI testing
+    release/         # /release — VERSION bump, CI flow, conventional commits
 ```
 
 ## Setup
