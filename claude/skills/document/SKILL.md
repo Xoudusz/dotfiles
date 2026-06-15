@@ -60,6 +60,7 @@ Bump `VERSION` file (or equivalent) in the repo on every merged change:
 6. Save notable external sources to `notes/references.md` (see below)
 7. Push notes to git
 8. Commit repo changes (VERSION + CLAUDE.md) with the version in the message
+9. Push repo: `git push`
 
 ## Saving sources (`notes/references.md`)
 
