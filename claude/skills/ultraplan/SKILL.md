@@ -224,6 +224,7 @@ When the user approves the plan:
 2. **Follow the Implementation Sequence** step by step — each step references exact files and changes
 3. **Run the Verification command** from the plan after implementation
 4. **Report results faithfully** — if verification fails, say so with the output
+5. **Run `/document`** — invoke the document skill to update CLAUDE.md, notes/projects/<project>.md, and push
 
 The plan file stays on disk as a record of what was agreed. Don't delete it after execution.
 
