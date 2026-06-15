@@ -57,5 +57,22 @@ Bump `VERSION` file (or equivalent) in the repo on every merged change:
 3. Update `CLAUDE.md` — minimal, instructions only
 4. Update `notes/projects/<project>.md` — version frontmatter + tools/config + roadmap Done entry
 5. Update `README.md` only if user-facing
-6. Push notes to git
-7. Commit repo changes (VERSION + CLAUDE.md) with the version in the message
+6. Save notable external sources to `notes/references.md` (see below)
+7. Push notes to git
+8. Commit repo changes (VERSION + CLAUDE.md) with the version in the message
+
+## Saving sources (`notes/references.md`)
+
+When research for a task involved finding an external resource worth keeping — a skill, library, pattern, RFC, tool — add it to `notes/references.md` under the relevant section.
+
+Grade:
+- ⭐⭐⭐ — Canonical / official. Authoritative, actively maintained.
+- ⭐⭐ — High quality community resource. Well-cited, likely stable.
+- ⭐ — Useful one-off. Verify before reusing; may be outdated.
+
+Format:
+```
+- [Title](URL) ⭐⭐ — one line: what it is and why it's useful.
+```
+
+Skip if: the task had no novel external research, or the source is trivially findable (e.g. official Python docs).
