@@ -7,8 +7,12 @@ Claude Code config, skills, and hooks for vibecode (192.168.68.107).
 ```
 claude/
   skills/
-    grill-me/   # /grill-me — relentless design interview
-    handoff/    # /handoff — session handoff doc generator
+    grill-me/        # /grill-me — relentless design interview
+    handoff/         # /handoff — session handoff doc generator
+    document/        # /document — post-change documentation checklist
+    skill-creator/   # /skill-creator — scaffold new skills (init_skill.py)
+    github-actions/  # /github-actions — CI/CD failure triage via gh CLI
+    webapp-testing/  # /webapp-testing — Playwright UI testing
 ```
 
 ## Setup
